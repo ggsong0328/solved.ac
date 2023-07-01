@@ -3,7 +3,6 @@ stick = 64
 save = []
 save.append(64)
 tmp = 0
-count = 0
 while sum(save) != X:
     if sum(save) > X:
         tmp = min(save) // 2
