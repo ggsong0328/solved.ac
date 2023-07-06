@@ -22,7 +22,7 @@ for k in range(len(knight)-1):
         check_move.append(0)
     else:
         check_move.append(1)
-#print(check_move)
+        
 if len(knight) != len(set(knight)):
     check_dup = False
 
@@ -30,5 +30,3 @@ if (check_dup == False) or (0 in check_move) or (check_knight_move(knight[-1], k
     print("Invalid")
 else:
     print("Valid")
-
-#print(ord(knight[0][1])-ord(knight[1][1]))
