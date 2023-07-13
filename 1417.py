@@ -13,4 +13,3 @@ if vote.count(max(vote)) > 1:
     print(cnt + 1)
 else:
     print(cnt)
-    
