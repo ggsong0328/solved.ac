@@ -5,7 +5,7 @@ T = int(sys.stdin.readline())
 for _ in range(T):
     R, C, M = list(sys.stdin.readline().split())
     message = [[0 for _ in range(int(C))] for _ in range(int(R))]
-    for i in range(int(R) * int(C)):
+    for i in range(len(M)):
         message[i//int(C)][i%int(C)] = int(M[i])
 
     #print(message)
